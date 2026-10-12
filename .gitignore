@@ -3,10 +3,17 @@ node_modules
 
 # build output
 dist
+build
+out
+.next
 
 # env files
 .env*
 !.env.example
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
 # editor
 .DS_Store
@@ -18,5 +25,5 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# typescript
-*.tsbuildinfo
+# deployment
+.vercel
